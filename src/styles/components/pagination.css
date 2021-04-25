@@ -1,0 +1,31 @@
+.pagination {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   padding: 4rem;
+}
+
+.pagination div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 5rem;
+   width: 5rem;
+   margin: 0 1rem;
+   padding-bottom: 0.3rem;
+   border-radius: 50%;
+   background-color: white;
+   color: black;
+   box-shadow: black 0 0 20px -10px;
+   transition: all 0.3s ease;
+   cursor: pointer;
+}
+.pagination div:hover {
+   box-shadow: 0 0 30px -10px;
+}
+
+.pagination .active {
+   background: black;
+   color: white;
+   box-shadow: black 0 0 20px -5px;
+}

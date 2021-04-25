@@ -1,0 +1,42 @@
+.auth {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 85vh;
+}
+.auth h2 {
+   text-align: center;
+   margin-bottom: 3rem;
+}
+
+.auth .card {
+   width: 50rem;
+   padding: 4rem 6rem;
+}
+
+.auth input {
+   height: 3rem;
+   margin: 0.5rem 0;
+   float: right;
+}
+
+.auth .input-split {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   gap: 1rem;
+}
+.auth .input-split div {
+   width: 100%;
+}
+
+.auth .auth-buttons {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   padding-top: 1rem;
+}
+.auth a {
+   color: black;
+}
